@@ -77,12 +77,12 @@ $$('.filter').forEach(filter => filter.addEventListener('click', () => {
 }));
 
 const projectData = [
-  { title: 'Jade House', location: 'Lekki, Lagos · Residential', image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85', description: 'A warm, contemporary family home designed around light, privacy, and the rituals of everyday life. We delivered the full build from foundation to finish.' },
-  { title: 'Axis House', location: 'Victoria Island, Lagos · Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=85', description: 'A confident commercial address with efficient floorplates, considered common areas, and a facade designed to age gracefully.' },
-  { title: 'Parkside Apartments', location: 'Ikoyi, Lagos · Residential', image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=85', description: 'A compact apartment development that balances generous shared spaces with calm, well-proportioned private interiors.' },
-  { title: 'New Dawn School', location: 'Abuja, FCT · Institutional', image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=85', description: 'A bright, durable learning environment shaped around movement, supervision, and the energy of young minds.' },
-  { title: 'Common Ground', location: 'Wuse, Abuja · Commercial', image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85', description: 'A flexible retail and business centre built to support independent brands, everyday convenience, and community.' },
-  { title: 'Northline Works', location: 'Enugu, Enugu · Industrial', image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=85', description: 'A high-performance industrial building with careful attention to circulation, loading, storage, and future expansion.' }
+  { title: 'Jade House', location: 'Lekki, Lagos / Residential', image: 'images/1790170188746.jpg', description: 'A warm, contemporary family home designed around light, privacy, and the rituals of everyday life. We delivered the full build from foundation to finish.' },
+  { title: 'Axis House', location: 'Victoria Island, Lagos / Commercial', image: 'images/1790170248520.jpg', description: 'A confident commercial address with efficient floorplates, considered common areas, and a facade designed to age gracefully.' },
+  { title: 'Parkside Apartments', location: 'Lekki, Lagos / Residential', image: 'images/1790170190862.jpg', description: 'A compact apartment development that balances generous shared spaces with calm, well-proportioned private interiors.' },
+  { title: 'New Dawn School', location: 'Abuja, FCT / Institutional', image: 'images/1790170232629.jpg', description: 'A bright, durable learning environment shaped around movement, supervision, and the energy of young minds.' },
+  { title: 'Common Ground', location: 'Victoria Island, Lagos / Commercial', image: 'images/1790170192848.jpg', description: 'A flexible retail and business centre built to support independent brands, everyday convenience, and community.' },
+  { title: 'Northline Works', location: 'Enugu, Enugu / Industrial', image: 'images/1790170175177.jpg', description: 'A high-performance industrial building with careful attention to circulation, loading, storage, and future expansion.' }
 ];
 
 const projectModal = $('#project-modal');
