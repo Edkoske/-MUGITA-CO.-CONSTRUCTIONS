@@ -6,6 +6,11 @@ $$('a[href="https://wa.me/254700499272"]').forEach(link => {
   link.href = `https://wa.me/254700499272?text=${encodeURIComponent(whatsappMessage)}`;
 });
 
+const studioAddress = $('.contact-list strong');
+const footerAddress = $('.footer__contact p');
+if (studioAddress) studioAddress.innerHTML = 'Berur Plaza, Room 1 Upper<br>Eldoret, Kenya';
+if (footerAddress) footerAddress.innerHTML = 'Berur Plaza, Room 1 Upper<br>Eldoret, Kenya';
+
 const menuToggle = $('.menu-toggle');
 const navMenu = $('.nav-menu');
 menuToggle?.addEventListener('click', () => {
