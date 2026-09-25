@@ -1,6 +1,11 @@
 const $ = (selector, scope = document) => scope.querySelector(selector);
 const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
 
+const whatsappMessage = 'Hello Conerstone, I would like to enquire about your construction services.';
+$$('a[href="https://wa.me/254700499272"]').forEach(link => {
+  link.href = `https://wa.me/254700499272?text=${encodeURIComponent(whatsappMessage)}`;
+});
+
 const menuToggle = $('.menu-toggle');
 const navMenu = $('.nav-menu');
 menuToggle?.addEventListener('click', () => {
